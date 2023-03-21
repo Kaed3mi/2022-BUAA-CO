@@ -1,0 +1,121 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue Dec 06 12:54:08 2022
+[*]
+[dumpfile] "D:\CO\P7\wave.vcd"
+[dumpfile_mtime] "Tue Dec 06 11:46:17 2022"
+[dumpfile_size] 331436
+[savefile] "D:\CO\P7\p7 wave.gtkw"
+[timestart] 136620
+[size] 2560 1377
+[pos] -1 -1
+*-12.000000 122540 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mips_txt.
+[treeopen] mips_txt.uut.
+[treeopen] mips_txt.uut.cpu.
+[sst_width] 197
+[signals_width] 261
+[sst_expanded] 1
+[sst_vpaned_height] 425
+@28
+mips_txt.uut.cpu.clk
+mips_txt.uut.cpu.reset
+@200
+-
+@22
+mips_txt.uut.cpu.PC_F[31:0]
+mips_txt.uut.cpu.instr_F[31:0]
+@820
+mips_txt.uut.cpu.asm_F[255:0]
+@200
+-
+-
+@22
+mips_txt.uut.cpu.PC_D[31:0]
+mips_txt.uut.cpu.instr_D[31:0]
+@820
+mips_txt.uut.cpu.asm_D[255:0]
+@200
+-
+-
+@22
+mips_txt.uut.cpu.PC_E[31:0]
+@820
+mips_txt.uut.cpu.asm_E[255:0]
+@200
+-
+-
+@22
+mips_txt.uut.cpu.PC_M[31:0]
+@820
+mips_txt.uut.cpu.asm_M[255:0]
+@200
+-
+-
+@22
+mips_txt.uut.cpu.PC_W[31:0]
+@820
+mips_txt.uut.cpu.asm_W[255:0]
+@200
+-
+-
+@22
+mips_txt.uut.cpu.cp0.SR[31:0]
+@28
+mips_txt.uut.cpu.cp0.WE
+@22
+mips_txt.uut.cpu.cp0.CP0In[31:0]
+mips_txt.uut.cpu.cp0.CP0Add[4:0]
+@28
+mips_txt.uut.cpu.cp0.BDIn
+@22
+mips_txt.uut.cpu.HWInt[5:0]
+@28
+mips_txt.interrupt
+@22
+mips_txt.uut.cpu.cp0.SR[31:0]
+mips_txt.uut.cpu.cp0.Cause[31:0]
+mips_txt.uut.cpu.cp0.EPCOut[31:0]
+@200
+-
+-
+@28
+[color] 3
+mips_txt.uut.cpu.req
+[color] 3
+mips_txt.uut.cpu.stall
+@22
+[color] 3
+mips_txt.uut.cpu.ExcCode_F[4:0]
+[color] 3
+mips_txt.uut.cpu.ExcCode_D[4:0]
+[color] 3
+mips_txt.uut.cpu.ExcCode_E[4:0]
+[color] 3
+mips_txt.uut.cpu.ExcCode_M[4:0]
+@200
+-
+-
+@28
+[color] 3
+mips_txt.uut.cpu.if2id.BD_in
+[color] 3
+mips_txt.uut.cpu.if2id.en
+[color] 3
+mips_txt.uut.cpu.if2id.reset
+@22
+[color] 3
+mips_txt.uut.cpu.if2id.pc_in[31:0]
+[color] 3
+mips_txt.uut.cpu.if2id.pc_out[31:0]
+@200
+-
+-
+@22
+[color] 3
+mips_txt.uut.cpu.ifu.npc[31:0]
+@28
+[color] 3
+mips_txt.uut.cpu.ifu.stall
+[pattern_trace] 1
+[pattern_trace] 0

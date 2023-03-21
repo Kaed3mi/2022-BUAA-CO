@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/CO/P8/uart_rx.xst" -ofn "D:/CO/P8/uart_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CO_FPGA_Constraint.ucf -p xc6slx100-fgg676-2 uart_rx.ngc uart_rx.ngd  

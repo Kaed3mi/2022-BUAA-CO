@@ -1,0 +1,2313 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CO_FPGA_Constraint.ucf
+-p xc6slx100-fgg676-2 uart_rx.ngc uart_rx.ngd
+
+Reading NGO file "D:/CO/P8/uart_rx.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "CO_FPGA_Constraint.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_in"        LOC = AF13 |>
+   [CO_FPGA_Constraint.ucf(4)]: NET "clk_in" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "clk_in"        LOC = AF13 |> [CO_FPGA_Constraint.ucf(4)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(4)]: NET "clk_in" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sys_rstn"      LOC = AC12 |>
+   [CO_FPGA_Constraint.ucf(6)]: NET "sys_rstn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sys_rstn"      LOC = AC12 |> [CO_FPGA_Constraint.ucf(6)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(6)]: NET "sys_rstn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "uart_rxd" LOC = AF21 |>
+   [CO_FPGA_Constraint.ucf(11)]: NET "uart_rxd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "uart_rxd" LOC = AF21 |> [CO_FPGA_Constraint.ucf(11)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(11)]: NET "uart_rxd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "uart_txd" LOC = AE21 |>
+   [CO_FPGA_Constraint.ucf(12)]: NET "uart_txd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "uart_txd" LOC = AE21 |> [CO_FPGA_Constraint.ucf(12)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(12)]: NET "uart_txd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[7]" LOC = D1  |>
+   [CO_FPGA_Constraint.ucf(17)]: NET "dip_switch0[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[7]" LOC = D1  |> [CO_FPGA_Constraint.ucf(17)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(17)]: NET "dip_switch0[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[6]" LOC = E3  |>
+   [CO_FPGA_Constraint.ucf(18)]: NET "dip_switch0[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[6]" LOC = E3  |> [CO_FPGA_Constraint.ucf(18)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(18)]: NET "dip_switch0[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[5]" LOC = E1  |>
+   [CO_FPGA_Constraint.ucf(19)]: NET "dip_switch0[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[5]" LOC = E1  |> [CO_FPGA_Constraint.ucf(19)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(19)]: NET "dip_switch0[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[4]" LOC = F3  |>
+   [CO_FPGA_Constraint.ucf(20)]: NET "dip_switch0[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[4]" LOC = F3  |> [CO_FPGA_Constraint.ucf(20)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(20)]: NET "dip_switch0[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[3]" LOC = F1  |>
+   [CO_FPGA_Constraint.ucf(21)]: NET "dip_switch0[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[3]" LOC = F1  |> [CO_FPGA_Constraint.ucf(21)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(21)]: NET "dip_switch0[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[2]" LOC = G3  |>
+   [CO_FPGA_Constraint.ucf(22)]: NET "dip_switch0[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[2]" LOC = G3  |> [CO_FPGA_Constraint.ucf(22)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(22)]: NET "dip_switch0[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[1]" LOC = H7  |>
+   [CO_FPGA_Constraint.ucf(23)]: NET "dip_switch0[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[1]" LOC = H7  |> [CO_FPGA_Constraint.ucf(23)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(23)]: NET "dip_switch0[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[0]" LOC = H3  |>
+   [CO_FPGA_Constraint.ucf(24)]: NET "dip_switch0[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[0]" LOC = H3  |> [CO_FPGA_Constraint.ucf(24)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(24)]: NET "dip_switch0[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[7]" LOC = G6  |>
+   [CO_FPGA_Constraint.ucf(25)]: NET "dip_switch1[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[7]" LOC = G6  |> [CO_FPGA_Constraint.ucf(25)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(25)]: NET "dip_switch1[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[6]" LOC = E6  |>
+   [CO_FPGA_Constraint.ucf(26)]: NET "dip_switch1[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[6]" LOC = E6  |> [CO_FPGA_Constraint.ucf(26)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(26)]: NET "dip_switch1[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[5]" LOC = G5  |>
+   [CO_FPGA_Constraint.ucf(27)]: NET "dip_switch1[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[5]" LOC = G5  |> [CO_FPGA_Constraint.ucf(27)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(27)]: NET "dip_switch1[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[4]" LOC = E4  |>
+   [CO_FPGA_Constraint.ucf(28)]: NET "dip_switch1[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[4]" LOC = E4  |> [CO_FPGA_Constraint.ucf(28)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(28)]: NET "dip_switch1[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[3]" LOC = B2  |>
+   [CO_FPGA_Constraint.ucf(29)]: NET "dip_switch1[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[3]" LOC = B2  |> [CO_FPGA_Constraint.ucf(29)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(29)]: NET "dip_switch1[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[2]" LOC = C2  |>
+   [CO_FPGA_Constraint.ucf(30)]: NET "dip_switch1[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[2]" LOC = C2  |> [CO_FPGA_Constraint.ucf(30)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(30)]: NET "dip_switch1[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[1]" LOC = B1  |>
+   [CO_FPGA_Constraint.ucf(31)]: NET "dip_switch1[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[1]" LOC = B1  |> [CO_FPGA_Constraint.ucf(31)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(31)]: NET "dip_switch1[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[0]" LOC = C1  |>
+   [CO_FPGA_Constraint.ucf(32)]: NET "dip_switch1[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[0]" LOC = C1  |> [CO_FPGA_Constraint.ucf(32)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(32)]: NET "dip_switch1[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[7]" LOC = A9  |>
+   [CO_FPGA_Constraint.ucf(33)]: NET "dip_switch2[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[7]" LOC = A9  |> [CO_FPGA_Constraint.ucf(33)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(33)]: NET "dip_switch2[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[6]" LOC = C9  |>
+   [CO_FPGA_Constraint.ucf(34)]: NET "dip_switch2[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[6]" LOC = C9  |> [CO_FPGA_Constraint.ucf(34)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(34)]: NET "dip_switch2[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[5]" LOC = G8  |>
+   [CO_FPGA_Constraint.ucf(35)]: NET "dip_switch2[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[5]" LOC = G8  |> [CO_FPGA_Constraint.ucf(35)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(35)]: NET "dip_switch2[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[4]" LOC = C8  |>
+   [CO_FPGA_Constraint.ucf(36)]: NET "dip_switch2[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[4]" LOC = C8  |> [CO_FPGA_Constraint.ucf(36)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(36)]: NET "dip_switch2[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[3]" LOC = D8  |>
+   [CO_FPGA_Constraint.ucf(37)]: NET "dip_switch2[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[3]" LOC = D8  |> [CO_FPGA_Constraint.ucf(37)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(37)]: NET "dip_switch2[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[2]" LOC = C7  |>
+   [CO_FPGA_Constraint.ucf(38)]: NET "dip_switch2[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[2]" LOC = C7  |> [CO_FPGA_Constraint.ucf(38)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(38)]: NET "dip_switch2[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[1]" LOC = D7  |>
+   [CO_FPGA_Constraint.ucf(39)]: NET "dip_switch2[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[1]" LOC = D7  |> [CO_FPGA_Constraint.ucf(39)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(39)]: NET "dip_switch2[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[0]" LOC = B6  |>
+   [CO_FPGA_Constraint.ucf(40)]: NET "dip_switch2[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[0]" LOC = B6  |> [CO_FPGA_Constraint.ucf(40)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(40)]: NET "dip_switch2[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[7]" LOC = A16 |>
+   [CO_FPGA_Constraint.ucf(41)]: NET "dip_switch3[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[7]" LOC = A16 |> [CO_FPGA_Constraint.ucf(41)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(41)]: NET "dip_switch3[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[6]" LOC = C14 |>
+   [CO_FPGA_Constraint.ucf(42)]: NET "dip_switch3[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[6]" LOC = C14 |> [CO_FPGA_Constraint.ucf(42)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(42)]: NET "dip_switch3[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[5]" LOC = A14 |>
+   [CO_FPGA_Constraint.ucf(43)]: NET "dip_switch3[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[5]" LOC = A14 |> [CO_FPGA_Constraint.ucf(43)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(43)]: NET "dip_switch3[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[4]" LOC = E14 |>
+   [CO_FPGA_Constraint.ucf(44)]: NET "dip_switch3[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[4]" LOC = E14 |> [CO_FPGA_Constraint.ucf(44)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(44)]: NET "dip_switch3[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[3]" LOC = F13 |>
+   [CO_FPGA_Constraint.ucf(45)]: NET "dip_switch3[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[3]" LOC = F13 |> [CO_FPGA_Constraint.ucf(45)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(45)]: NET "dip_switch3[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[2]" LOC = C13 |>
+   [CO_FPGA_Constraint.ucf(46)]: NET "dip_switch3[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[2]" LOC = C13 |> [CO_FPGA_Constraint.ucf(46)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(46)]: NET "dip_switch3[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[1]" LOC = D12 |>
+   [CO_FPGA_Constraint.ucf(47)]: NET "dip_switch3[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[1]" LOC = D12 |> [CO_FPGA_Constraint.ucf(47)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(47)]: NET "dip_switch3[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[0]" LOC = C11 |>
+   [CO_FPGA_Constraint.ucf(48)]: NET "dip_switch3[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[0]" LOC = C11 |> [CO_FPGA_Constraint.ucf(48)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(48)]: NET "dip_switch3[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[7]" LOC = C3  |>
+   [CO_FPGA_Constraint.ucf(49)]: NET "dip_switch4[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[7]" LOC = C3  |> [CO_FPGA_Constraint.ucf(49)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(49)]: NET "dip_switch4[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[6]" LOC = H8  |>
+   [CO_FPGA_Constraint.ucf(50)]: NET "dip_switch4[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[6]" LOC = H8  |> [CO_FPGA_Constraint.ucf(50)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(50)]: NET "dip_switch4[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[5]" LOC = F5  |>
+   [CO_FPGA_Constraint.ucf(51)]: NET "dip_switch4[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[5]" LOC = F5  |> [CO_FPGA_Constraint.ucf(51)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(51)]: NET "dip_switch4[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[4]" LOC = H6  |>
+   [CO_FPGA_Constraint.ucf(52)]: NET "dip_switch4[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[4]" LOC = H6  |> [CO_FPGA_Constraint.ucf(52)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(52)]: NET "dip_switch4[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[3]" LOC = E2  |>
+   [CO_FPGA_Constraint.ucf(53)]: NET "dip_switch4[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[3]" LOC = E2  |> [CO_FPGA_Constraint.ucf(53)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(53)]: NET "dip_switch4[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[2]" LOC = G4  |>
+   [CO_FPGA_Constraint.ucf(54)]: NET "dip_switch4[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[2]" LOC = G4  |> [CO_FPGA_Constraint.ucf(54)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(54)]: NET "dip_switch4[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[1]" LOC = G2  |>
+   [CO_FPGA_Constraint.ucf(55)]: NET "dip_switch4[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[1]" LOC = G2  |> [CO_FPGA_Constraint.ucf(55)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(55)]: NET "dip_switch4[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[0]" LOC = G1  |>
+   [CO_FPGA_Constraint.ucf(56)]: NET "dip_switch4[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[0]" LOC = G1  |> [CO_FPGA_Constraint.ucf(56)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(56)]: NET "dip_switch4[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[7]" LOC = D6  |>
+   [CO_FPGA_Constraint.ucf(57)]: NET "dip_switch5[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[7]" LOC = D6  |> [CO_FPGA_Constraint.ucf(57)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(57)]: NET "dip_switch5[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[6]" LOC = C5  |>
+   [CO_FPGA_Constraint.ucf(58)]: NET "dip_switch5[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[6]" LOC = C5  |> [CO_FPGA_Constraint.ucf(58)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(58)]: NET "dip_switch5[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[5]" LOC = D5  |>
+   [CO_FPGA_Constraint.ucf(59)]: NET "dip_switch5[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[5]" LOC = D5  |> [CO_FPGA_Constraint.ucf(59)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(59)]: NET "dip_switch5[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[4]" LOC = C4  |>
+   [CO_FPGA_Constraint.ucf(60)]: NET "dip_switch5[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[4]" LOC = C4  |> [CO_FPGA_Constraint.ucf(60)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(60)]: NET "dip_switch5[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[3]" LOC = A4  |>
+   [CO_FPGA_Constraint.ucf(61)]: NET "dip_switch5[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[3]" LOC = A4  |> [CO_FPGA_Constraint.ucf(61)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(61)]: NET "dip_switch5[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[2]" LOC = B4  |>
+   [CO_FPGA_Constraint.ucf(62)]: NET "dip_switch5[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[2]" LOC = B4  |> [CO_FPGA_Constraint.ucf(62)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(62)]: NET "dip_switch5[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[1]" LOC = A2  |>
+   [CO_FPGA_Constraint.ucf(63)]: NET "dip_switch5[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[1]" LOC = A2  |> [CO_FPGA_Constraint.ucf(63)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(63)]: NET "dip_switch5[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[0]" LOC = E5  |>
+   [CO_FPGA_Constraint.ucf(64)]: NET "dip_switch5[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[0]" LOC = E5  |> [CO_FPGA_Constraint.ucf(64)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(64)]: NET "dip_switch5[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[7]" LOC = J10 |>
+   [CO_FPGA_Constraint.ucf(65)]: NET "dip_switch6[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[7]" LOC = J10 |> [CO_FPGA_Constraint.ucf(65)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(65)]: NET "dip_switch6[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[6]" LOC = G7  |>
+   [CO_FPGA_Constraint.ucf(66)]: NET "dip_switch6[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[6]" LOC = G7  |> [CO_FPGA_Constraint.ucf(66)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(66)]: NET "dip_switch6[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[5]" LOC = C6  |>
+   [CO_FPGA_Constraint.ucf(67)]: NET "dip_switch6[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[5]" LOC = C6  |> [CO_FPGA_Constraint.ucf(67)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(67)]: NET "dip_switch6[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[4]" LOC = A8  |>
+   [CO_FPGA_Constraint.ucf(68)]: NET "dip_switch6[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[4]" LOC = A8  |> [CO_FPGA_Constraint.ucf(68)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(68)]: NET "dip_switch6[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[3]" LOC = B8  |>
+   [CO_FPGA_Constraint.ucf(69)]: NET "dip_switch6[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[3]" LOC = B8  |> [CO_FPGA_Constraint.ucf(69)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(69)]: NET "dip_switch6[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[2]" LOC = A7  |>
+   [CO_FPGA_Constraint.ucf(70)]: NET "dip_switch6[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[2]" LOC = A7  |> [CO_FPGA_Constraint.ucf(70)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(70)]: NET "dip_switch6[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[1]" LOC = A5  |>
+   [CO_FPGA_Constraint.ucf(71)]: NET "dip_switch6[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[1]" LOC = A5  |> [CO_FPGA_Constraint.ucf(71)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(71)]: NET "dip_switch6[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[0]" LOC = A6  |>
+   [CO_FPGA_Constraint.ucf(72)]: NET "dip_switch6[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[0]" LOC = A6  |> [CO_FPGA_Constraint.ucf(72)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(72)]: NET "dip_switch6[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[7]" LOC = A13 |>
+   [CO_FPGA_Constraint.ucf(73)]: NET "dip_switch7[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[7]" LOC = A13 |> [CO_FPGA_Constraint.ucf(73)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(73)]: NET "dip_switch7[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[6]" LOC = A12 |>
+   [CO_FPGA_Constraint.ucf(74)]: NET "dip_switch7[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[6]" LOC = A12 |> [CO_FPGA_Constraint.ucf(74)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(74)]: NET "dip_switch7[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[5]" LOC = C12 |>
+   [CO_FPGA_Constraint.ucf(75)]: NET "dip_switch7[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[5]" LOC = C12 |> [CO_FPGA_Constraint.ucf(75)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(75)]: NET "dip_switch7[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[4]" LOC = F11 |>
+   [CO_FPGA_Constraint.ucf(76)]: NET "dip_switch7[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[4]" LOC = F11 |> [CO_FPGA_Constraint.ucf(76)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(76)]: NET "dip_switch7[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[3]" LOC = C10 |>
+   [CO_FPGA_Constraint.ucf(77)]: NET "dip_switch7[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[3]" LOC = C10 |> [CO_FPGA_Constraint.ucf(77)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(77)]: NET "dip_switch7[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[2]" LOC = F10 |>
+   [CO_FPGA_Constraint.ucf(78)]: NET "dip_switch7[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[2]" LOC = F10 |> [CO_FPGA_Constraint.ucf(78)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(78)]: NET "dip_switch7[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[1]" LOC = B10 |>
+   [CO_FPGA_Constraint.ucf(79)]: NET "dip_switch7[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[1]" LOC = B10 |> [CO_FPGA_Constraint.ucf(79)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(79)]: NET "dip_switch7[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[0]" LOC = F9  |>
+   [CO_FPGA_Constraint.ucf(80)]: NET "dip_switch7[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[0]" LOC = F9  |> [CO_FPGA_Constraint.ucf(80)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(80)]: NET "dip_switch7[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[0]" LOC = K5 |>
+   [CO_FPGA_Constraint.ucf(85)]: NET "user_key[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[0]" LOC = K5 |> [CO_FPGA_Constraint.ucf(85)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(85)]: NET "user_key[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[1]" LOC = K8 |>
+   [CO_FPGA_Constraint.ucf(86)]: NET "user_key[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[1]" LOC = K8 |> [CO_FPGA_Constraint.ucf(86)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(86)]: NET "user_key[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[2]" LOC = L1 |>
+   [CO_FPGA_Constraint.ucf(87)]: NET "user_key[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[2]" LOC = L1 |> [CO_FPGA_Constraint.ucf(87)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(87)]: NET "user_key[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[3]" LOC = L2 |>
+   [CO_FPGA_Constraint.ucf(88)]: NET "user_key[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[3]" LOC = L2 |> [CO_FPGA_Constraint.ucf(88)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(88)]: NET "user_key[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[4]" LOC = K1 |>
+   [CO_FPGA_Constraint.ucf(89)]: NET "user_key[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[4]" LOC = K1 |> [CO_FPGA_Constraint.ucf(89)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(89)]: NET "user_key[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[5]" LOC = J1 |>
+   [CO_FPGA_Constraint.ucf(90)]: NET "user_key[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[5]" LOC = J1 |> [CO_FPGA_Constraint.ucf(90)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(90)]: NET "user_key[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[6]" LOC = J7 |>
+   [CO_FPGA_Constraint.ucf(91)]: NET "user_key[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[6]" LOC = J7 |> [CO_FPGA_Constraint.ucf(91)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(91)]: NET "user_key[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[7]" LOC = D3 |>
+   [CO_FPGA_Constraint.ucf(92)]: NET "user_key[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[7]" LOC = D3 |> [CO_FPGA_Constraint.ucf(92)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(92)]: NET "user_key[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[0]"   LOC = L9  |>
+   [CO_FPGA_Constraint.ucf(97)]: NET "led_light[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[0]"   LOC = L9  |> [CO_FPGA_Constraint.ucf(97)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(97)]: NET "led_light[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[1]"   LOC = K9  |>
+   [CO_FPGA_Constraint.ucf(98)]: NET "led_light[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[1]"   LOC = K9  |> [CO_FPGA_Constraint.ucf(98)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(98)]: NET "led_light[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[2]"   LOC = N1  |>
+   [CO_FPGA_Constraint.ucf(99)]: NET "led_light[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[2]"   LOC = N1  |> [CO_FPGA_Constraint.ucf(99)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(99)]: NET "led_light[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[3]"   LOC = N2  |>
+   [CO_FPGA_Constraint.ucf(100)]: NET "led_light[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[3]"   LOC = N2  |> [CO_FPGA_Constraint.ucf(100)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(100)]: NET "led_light[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[4]"   LOC = M1  |>
+   [CO_FPGA_Constraint.ucf(101)]: NET "led_light[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[4]"   LOC = M1  |> [CO_FPGA_Constraint.ucf(101)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(101)]: NET "led_light[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[5]"   LOC = M3  |>
+   [CO_FPGA_Constraint.ucf(102)]: NET "led_light[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[5]"   LOC = M3  |> [CO_FPGA_Constraint.ucf(102)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(102)]: NET "led_light[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[6]"   LOC = L8  |>
+   [CO_FPGA_Constraint.ucf(103)]: NET "led_light[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[6]"   LOC = L8  |> [CO_FPGA_Constraint.ucf(103)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(103)]: NET "led_light[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[7]"   LOC = K7  |>
+   [CO_FPGA_Constraint.ucf(104)]: NET "led_light[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[7]"   LOC = K7  |> [CO_FPGA_Constraint.ucf(104)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(104)]: NET "led_light[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[8]"   LOC = K6  |>
+   [CO_FPGA_Constraint.ucf(105)]: NET "led_light[8]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[8]"   LOC = K6  |> [CO_FPGA_Constraint.ucf(105)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(105)]: NET "led_light[8]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[9]"   LOC = K3  |>
+   [CO_FPGA_Constraint.ucf(106)]: NET "led_light[9]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[9]"   LOC = K3  |> [CO_FPGA_Constraint.ucf(106)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(106)]: NET "led_light[9]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[10]"  LOC = J4  |>
+   [CO_FPGA_Constraint.ucf(107)]: NET "led_light[10]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[10]"  LOC = J4  |> [CO_FPGA_Constraint.ucf(107)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(107)]: NET "led_light[10]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[11]"  LOC = J3  |>
+   [CO_FPGA_Constraint.ucf(108)]: NET "led_light[11]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[11]"  LOC = J3  |> [CO_FPGA_Constraint.ucf(108)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(108)]: NET "led_light[11]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[12]"  LOC = J5  |>
+   [CO_FPGA_Constraint.ucf(109)]: NET "led_light[12]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[12]"  LOC = J5  |> [CO_FPGA_Constraint.ucf(109)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(109)]: NET "led_light[12]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[13]"  LOC = J2  |>
+   [CO_FPGA_Constraint.ucf(110)]: NET "led_light[13]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[13]"  LOC = J2  |> [CO_FPGA_Constraint.ucf(110)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(110)]: NET "led_light[13]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[14]"  LOC = H5  |>
+   [CO_FPGA_Constraint.ucf(111)]: NET "led_light[14]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[14]"  LOC = H5  |> [CO_FPGA_Constraint.ucf(111)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(111)]: NET "led_light[14]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[15]"  LOC = H1  |>
+   [CO_FPGA_Constraint.ucf(112)]: NET "led_light[15]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[15]"  LOC = H1  |> [CO_FPGA_Constraint.ucf(112)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(112)]: NET "led_light[15]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[16]"  LOC = E9  |>
+   [CO_FPGA_Constraint.ucf(113)]: NET "led_light[16]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[16]"  LOC = E9  |> [CO_FPGA_Constraint.ucf(113)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(113)]: NET "led_light[16]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[17]"  LOC = D10 |>
+   [CO_FPGA_Constraint.ucf(114)]: NET "led_light[17]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[17]"  LOC = D10 |> [CO_FPGA_Constraint.ucf(114)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(114)]: NET "led_light[17]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[18]"  LOC = A11 |>
+   [CO_FPGA_Constraint.ucf(115)]: NET "led_light[18]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[18]"  LOC = A11 |> [CO_FPGA_Constraint.ucf(115)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(115)]: NET "led_light[18]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[19]"  LOC = A10 |>
+   [CO_FPGA_Constraint.ucf(116)]: NET "led_light[19]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[19]"  LOC = A10 |> [CO_FPGA_Constraint.ucf(116)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(116)]: NET "led_light[19]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[20]"  LOC = D11 |>
+   [CO_FPGA_Constraint.ucf(117)]: NET "led_light[20]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[20]"  LOC = D11 |> [CO_FPGA_Constraint.ucf(117)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(117)]: NET "led_light[20]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[21]"  LOC = E10 |>
+   [CO_FPGA_Constraint.ucf(118)]: NET "led_light[21]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[21]"  LOC = E10 |> [CO_FPGA_Constraint.ucf(118)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(118)]: NET "led_light[21]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[22]"  LOC = D14 |>
+   [CO_FPGA_Constraint.ucf(119)]: NET "led_light[22]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[22]"  LOC = D14 |> [CO_FPGA_Constraint.ucf(119)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(119)]: NET "led_light[22]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[23]"  LOC = A15 |>
+   [CO_FPGA_Constraint.ucf(120)]: NET "led_light[23]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[23]"  LOC = A15 |> [CO_FPGA_Constraint.ucf(120)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(120)]: NET "led_light[23]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[24]"  LOC = G16 |>
+   [CO_FPGA_Constraint.ucf(121)]: NET "led_light[24]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[24]"  LOC = G16 |> [CO_FPGA_Constraint.ucf(121)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(121)]: NET "led_light[24]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[25]"  LOC = B14 |>
+   [CO_FPGA_Constraint.ucf(122)]: NET "led_light[25]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[25]"  LOC = B14 |> [CO_FPGA_Constraint.ucf(122)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(122)]: NET "led_light[25]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[26]"  LOC = F15 |>
+   [CO_FPGA_Constraint.ucf(123)]: NET "led_light[26]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[26]"  LOC = F15 |> [CO_FPGA_Constraint.ucf(123)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(123)]: NET "led_light[26]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[27]"  LOC = D15 |>
+   [CO_FPGA_Constraint.ucf(124)]: NET "led_light[27]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[27]"  LOC = D15 |> [CO_FPGA_Constraint.ucf(124)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(124)]: NET "led_light[27]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[28]"  LOC = B16 |>
+   [CO_FPGA_Constraint.ucf(125)]: NET "led_light[28]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[28]"  LOC = B16 |> [CO_FPGA_Constraint.ucf(125)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(125)]: NET "led_light[28]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[29]"  LOC = D16 |>
+   [CO_FPGA_Constraint.ucf(126)]: NET "led_light[29]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[29]"  LOC = D16 |> [CO_FPGA_Constraint.ucf(126)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(126)]: NET "led_light[29]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[30]"  LOC = C16 |>
+   [CO_FPGA_Constraint.ucf(127)]: NET "led_light[30]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[30]"  LOC = C16 |> [CO_FPGA_Constraint.ucf(127)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(127)]: NET "led_light[30]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[31]"  LOC = B18 |>
+   [CO_FPGA_Constraint.ucf(128)]: NET "led_light[31]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[31]"  LOC = B18 |> [CO_FPGA_Constraint.ucf(128)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(128)]: NET "led_light[31]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[7]"   LOC = D19 |>
+   [CO_FPGA_Constraint.ucf(133)]: NET "digital_tube2[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[7]"   LOC = D19 |> [CO_FPGA_Constraint.ucf(133)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(133)]: NET "digital_tube2[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[6]"   LOC = B20 |>
+   [CO_FPGA_Constraint.ucf(134)]: NET "digital_tube2[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[6]"   LOC = B20 |> [CO_FPGA_Constraint.ucf(134)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(134)]: NET "digital_tube2[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[5]"   LOC = D21 |>
+   [CO_FPGA_Constraint.ucf(135)]: NET "digital_tube2[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[5]"   LOC = D21 |> [CO_FPGA_Constraint.ucf(135)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(135)]: NET "digital_tube2[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[4]"   LOC = D20 |>
+   [CO_FPGA_Constraint.ucf(136)]: NET "digital_tube2[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[4]"   LOC = D20 |> [CO_FPGA_Constraint.ucf(136)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(136)]: NET "digital_tube2[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[3]"   LOC = H15 |>
+   [CO_FPGA_Constraint.ucf(137)]: NET "digital_tube2[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[3]"   LOC = H15 |> [CO_FPGA_Constraint.ucf(137)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(137)]: NET "digital_tube2[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[2]"   LOC = B22 |>
+   [CO_FPGA_Constraint.ucf(138)]: NET "digital_tube2[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[2]"   LOC = B22 |> [CO_FPGA_Constraint.ucf(138)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(138)]: NET "digital_tube2[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[1]"   LOC = A21 |>
+   [CO_FPGA_Constraint.ucf(139)]: NET "digital_tube2[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[1]"   LOC = A21 |> [CO_FPGA_Constraint.ucf(139)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(139)]: NET "digital_tube2[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[0]"   LOC = A22 |>
+   [CO_FPGA_Constraint.ucf(140)]: NET "digital_tube2[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[0]"   LOC = A22 |> [CO_FPGA_Constraint.ucf(140)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(140)]: NET "digital_tube2[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel2"  LOC = J17 |>
+   [CO_FPGA_Constraint.ucf(141)]: NET "digital_tube_sel2" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel2"  LOC = J17 |> [CO_FPGA_Constraint.ucf(141)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(141)]: NET "digital_tube_sel2" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[7]"      LOC = A20 
+   |> [CO_FPGA_Constraint.ucf(143)]: NET "digital_tube1[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[7]"      LOC = A20  |> [CO_FPGA_Constraint.ucf(143)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(143)]: NET "digital_tube1[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[6]"      LOC = E19 
+   |> [CO_FPGA_Constraint.ucf(144)]: NET "digital_tube1[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[6]"      LOC = E19  |> [CO_FPGA_Constraint.ucf(144)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(144)]: NET "digital_tube1[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[5]"      LOC = E20 
+   |> [CO_FPGA_Constraint.ucf(145)]: NET "digital_tube1[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[5]"      LOC = E20  |> [CO_FPGA_Constraint.ucf(145)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(145)]: NET "digital_tube1[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[4]"      LOC = A19 
+   |> [CO_FPGA_Constraint.ucf(146)]: NET "digital_tube1[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[4]"      LOC = A19  |> [CO_FPGA_Constraint.ucf(146)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(146)]: NET "digital_tube1[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[3]"      LOC = F17 
+   |> [CO_FPGA_Constraint.ucf(147)]: NET "digital_tube1[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[3]"      LOC = F17  |> [CO_FPGA_Constraint.ucf(147)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(147)]: NET "digital_tube1[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[2]"      LOC = E18 
+   |> [CO_FPGA_Constraint.ucf(148)]: NET "digital_tube1[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[2]"      LOC = E18  |> [CO_FPGA_Constraint.ucf(148)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(148)]: NET "digital_tube1[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[1]"      LOC = C21 
+   |> [CO_FPGA_Constraint.ucf(149)]: NET "digital_tube1[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[1]"      LOC = C21  |> [CO_FPGA_Constraint.ucf(149)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(149)]: NET "digital_tube1[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[0]"      LOC = C17 
+   |> [CO_FPGA_Constraint.ucf(150)]: NET "digital_tube1[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[0]"      LOC = C17  |> [CO_FPGA_Constraint.ucf(150)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(150)]: NET "digital_tube1[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[0]"  LOC = G17 
+   |> [CO_FPGA_Constraint.ucf(151)]: NET "digital_tube_sel1[0]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[0]"  LOC = G17  |> [CO_FPGA_Constraint.ucf(151)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(151)]: NET "digital_tube_sel1[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[1]"  LOC = C19 
+   |> [CO_FPGA_Constraint.ucf(152)]: NET "digital_tube_sel1[1]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[1]"  LOC = C19  |> [CO_FPGA_Constraint.ucf(152)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(152)]: NET "digital_tube_sel1[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[2]"  LOC = F18 
+   |> [CO_FPGA_Constraint.ucf(153)]: NET "digital_tube_sel1[2]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[2]"  LOC = F18  |> [CO_FPGA_Constraint.ucf(153)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(153)]: NET "digital_tube_sel1[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[3]"  LOC = C20 
+   |> [CO_FPGA_Constraint.ucf(154)]: NET "digital_tube_sel1[3]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[3]"  LOC = C20  |> [CO_FPGA_Constraint.ucf(154)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(154)]: NET "digital_tube_sel1[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[7]"      LOC = E17 
+   |> [CO_FPGA_Constraint.ucf(156)]: NET "digital_tube0[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[7]"      LOC = E17  |> [CO_FPGA_Constraint.ucf(156)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(156)]: NET "digital_tube0[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[6]"      LOC = J14 
+   |> [CO_FPGA_Constraint.ucf(157)]: NET "digital_tube0[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[6]"      LOC = J14  |> [CO_FPGA_Constraint.ucf(157)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(157)]: NET "digital_tube0[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[5]"      LOC = B12 
+   |> [CO_FPGA_Constraint.ucf(158)]: NET "digital_tube0[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[5]"      LOC = B12  |> [CO_FPGA_Constraint.ucf(158)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(158)]: NET "digital_tube0[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[4]"      LOC = F16 
+   |> [CO_FPGA_Constraint.ucf(159)]: NET "digital_tube0[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[4]"      LOC = F16  |> [CO_FPGA_Constraint.ucf(159)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(159)]: NET "digital_tube0[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[3]"      LOC = C18 
+   |> [CO_FPGA_Constraint.ucf(160)]: NET "digital_tube0[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[3]"      LOC = C18  |> [CO_FPGA_Constraint.ucf(160)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(160)]: NET "digital_tube0[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[2]"      LOC = D18 
+   |> [CO_FPGA_Constraint.ucf(161)]: NET "digital_tube0[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[2]"      LOC = D18  |> [CO_FPGA_Constraint.ucf(161)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(161)]: NET "digital_tube0[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[1]"      LOC = D13 
+   |> [CO_FPGA_Constraint.ucf(162)]: NET "digital_tube0[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[1]"      LOC = D13  |> [CO_FPGA_Constraint.ucf(162)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(162)]: NET "digital_tube0[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[0]"      LOC = A18 
+   |> [CO_FPGA_Constraint.ucf(163)]: NET "digital_tube0[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[0]"      LOC = A18  |> [CO_FPGA_Constraint.ucf(163)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(163)]: NET "digital_tube0[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[0]"  LOC = E16 
+   |> [CO_FPGA_Constraint.ucf(164)]: NET "digital_tube_sel0[0]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[0]"  LOC = E16  |> [CO_FPGA_Constraint.ucf(164)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(164)]: NET "digital_tube_sel0[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[1]"  LOC = A17 
+   |> [CO_FPGA_Constraint.ucf(165)]: NET "digital_tube_sel0[1]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[1]"  LOC = A17  |> [CO_FPGA_Constraint.ucf(165)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(165)]: NET "digital_tube_sel0[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[2]"  LOC = C15 
+   |> [CO_FPGA_Constraint.ucf(166)]: NET "digital_tube_sel0[2]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[2]"  LOC = C15  |> [CO_FPGA_Constraint.ucf(166)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(166)]: NET "digital_tube_sel0[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[3]"  LOC = G14 
+   |> [CO_FPGA_Constraint.ucf(167)]: NET "digital_tube_sel0[3]" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[3]"  LOC = G14  |> [CO_FPGA_Constraint.ucf(167)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [CO_FPGA_Constraint.ucf(167)]: NET "digital_tube_sel0[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_in" CLOCK_DEDICATED_ROUTE =
+   FALSE;> [CO_FPGA_Constraint.ucf(172)]: NET "clk_in" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_in" TNM_NET = "clk_in";>
+   [CO_FPGA_Constraint.ucf(173)]: NET "clk_in" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clk_in = PERIOD "clk_in"
+   40 ns;> [CO_FPGA_Constraint.ucf(174)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'clk_in'.
+
+WARNING:ConstraintSystem:191 - The TNM 'clk_in', does not directly or indirectly
+   drive any flip-flops, latches and/or RAMS and cannot be actively used by the
+   referencing Period constraint 'TS_clk_in'. If clock manager blocks are
+   directly or indirectly driven, a new TNM constraint will not be derived even
+   though the referencing constraint is a PERIOD constraint unless an output of
+   the clock manager drives flip-flops, latches or RAMs. This TNM is used in the
+   following user PERIOD specification:
+   <TIMESPEC TS_clk_in = PERIOD "clk_in" 40 ns;> [CO_FPGA_Constraint.ucf(174)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_clk_in = PERIOD "clk_in" 40 ns;> [CO_FPGA_Constraint.ucf(174)]
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:   284
+  Number of warnings: 144
+
+Total memory usage is 4398332 kilobytes
+
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "uart_rx.bld"...
